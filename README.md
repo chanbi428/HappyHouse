@@ -21,39 +21,37 @@ Database
 ```
 - MongoDB
 ```
+!-->
 
 ## 🚀 How to Run
 1. 프로젝트를 clone 합니다.
 
 ```
-git clone https://github.com/hye-ppy/MODU.git
+git clone https://github.com/cksql428/HappyHouse.git
 ```
 
-2. `config` 폴더 안에 `dev.js` 파일을 만들어주세요.
+2. 다음 API 들의 KEY 를 발급받으세요.
+- KAKAO MAP API
+- OPENWEATHER API 
+
+3. `front` 폴더 안에 `.env.local` 파일을 만들어주세요.
 
 
 ```
-mkdir ./server/config/dev.js
+mkdir ./front/.env.local
 ```
 
-3. `dev.js` 파일 안에 MongoDB 정보를 넣어주세요.
+4. `.env.local` 파일 안에 KAKAO MAP API KEY 와 OPENWEATHER API KEY 정보를 입력해주세요.
 
 ```
-module.exports = {
-    mongoURI:'mongodb+srv://<username>:<password>@boilerplate.agjuj.mongodb.net/<DBname>?retryWrites=true&w=majority'
-}
+VUE_APP_KAKAO_MAP_API_KEY=<KAKAO_MAP_API_KEY>
+VUE_APP_OPENWEATHER_API_KEY=<OPENWEATHER_API_KEY>
 ```
 
-4. 루트 디렉토리에서 `npm install`을 하세요. ( 콘솔에서 다음 명령을 실행하여 필요한 dependencies를 가져옵니다. )
+5. `front` 디렉토리에서 `npm install`을 하세요. ( 콘솔에서 다음 명령을 실행하여 필요한 dependencies를 가져옵니다. )
 
 ```
-npm install
-```
-
-5. `client` 디렉토리에서 `npm install`을 하세요. ( 콘솔에서 다음 명령을 실행하여 필요한 dependencies를 가져옵니다. )
-
-```
-cd ./client
+cd ./front
 npm install
 ```
 
