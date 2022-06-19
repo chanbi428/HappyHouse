@@ -2,7 +2,8 @@
 
 - 삼성 청년 SW 아카데미 관통프로젝트 - <b>최우수상🏆</b>
 
-- 한줄설명
+- 부동산 실거래가 및 주변상권 조회 서비스
+
 <!-- 
 ## ⚙ Environment
 
@@ -54,6 +55,14 @@ VUE_APP_OPENWEATHER_API_KEY=<OPENWEATHER_API_KEY>
 cd ./front
 npm install
 ```
+
+6. `back/src/main/resources` 폴더 안에 `application.properites` 파일을 만들어주세요.
+
+```
+mkdir ./back/src/main/resources/application.properties
+```
+
+7. `application.properites` 파일 안에 다음 정보들을 입력해주세요.
 
 <!--6. 공공데이터포털에서 아래 목록을 서비스 신청해서 api 인증키를 받아서 ~~에 등록해주세요.-->
 
