@@ -24,7 +24,7 @@ Database
 ```
 !-->
 
-## 🚀 How to Run
+<!-- ## 🚀 How to Run
 1. 프로젝트를 clone 합니다.
 
 ```
@@ -63,6 +63,61 @@ mkdir ./back/src/main/resources/application.properties
 ```
 
 7. `application.properites` 파일 안에 다음 정보들을 입력해주세요.
+
+```
+#server.servlet.context-path=/
+server.port=80
+
+##JSP Setting
+#spring.mvc.view.prefix=/WEB-INF/views/
+#spring.mvc.view.suffix=.jsp
+
+#DataBase Setting
+spring.datasource.hikari.maximum-pool-size=4
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/happyhouse_pjt?serverTimezone=UTC&useUniCode=yes&characterEncoding=UTF-8
+spring.datasource.username=<MySQL username>
+spring.datasource.password=<MySQL password>
+
+#MyBatis Setting
+mybatis.type-aliases-package=com.ssafy.happyhouse.model
+
+
+#mybaits
+mybatis.config-location=classpath:/config/mybatis-config.xml
+
+
+#File Upload size Setting
+spring.servlet.multipart.max-file-size=5MB
+spring.servlet.multipart.max-request-size=5MB
+
+#log level Setting
+logging.level.root=info
+logging.level.com.ssafy.happyhouse=debug
+
+#app properties
+app.fileupload.uploadPath=/Users/baechanbi/ssafy_java/springboot/happyhouse_final/src/main/resources/static
+app.fileupload.uploadDir=upload
+#gson
+spring.mvc.converters.preferred-json-mapper=gson
+
+#Failed to start bean 'documentationPluginsBootstrapper'; error
+spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
+
+
+#Email
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=cksql0428@gmail.com
+spring.mail.password=xogud1230
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+spring.mail.properties.mail.smtp.auth=true
+
+#news api key
+app.search.news.api.key=IZXFvACBN4
+``` -->
 
 <!--6. 공공데이터포털에서 아래 목록을 서비스 신청해서 api 인증키를 받아서 ~~에 등록해주세요.-->
 
