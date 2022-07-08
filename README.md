@@ -32,7 +32,7 @@ Etc
 - NAVER Search API
 ```
 
-
+## 🔎 Description
 <img width="1113" alt="스크린샷 2022-07-03 오후 11 36 54" src="https://user-images.githubusercontent.com/73926213/177044660-eb1f67e5-2059-4847-9c25-06291786a341.png">
 <img width="1110" alt="스크린샷 2022-07-06 오후 11 56 11" src="https://user-images.githubusercontent.com/73926213/177581094-5489cb1d-b866-41cf-bcc4-0f483d67b212.png">
 <img width="1110" alt="스크린샷 2022-07-06 오후 11 56 35" src="https://user-images.githubusercontent.com/73926213/177581128-1a59fd60-81a1-457b-bf07-6fe28e838c25.png">
